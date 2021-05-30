@@ -9,11 +9,16 @@ Files - Description :
 
 (Let X -> Case / Misc)
 
-X_DF - 
-X_tfidf - 
-X_filenames - 
+X_DF - Document frequecy values of tokens for tdidf calculation
+
+X_tfidf - tfidf values of tokens
+
+X_filenames - filenames of the corresponding pdf files in the data directory
+
 X_queries - List of queries generated
+
 X_total_vocab - list of word tokens
+
 X_text - list of sentences from file
 
 cleanedregtopics48.pkl - list of list of topics extracted from sub-regulations -> [[reg1_topic1, reg2_topic2,...],[reg2_topic1, reg2_topic2,...]...]
