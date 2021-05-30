@@ -21,7 +21,9 @@ X_total_vocab - list of word tokens
 
 X_text - list of sentences from file
 
-cleanedregtopics48.pkl - list of list of topics extracted from sub-regulations -> [[reg1_topic1, reg2_topic2,...],[reg2_topic1, reg2_topic2,...]...]
+reg_topics.pkl - list of list of topics extracted from SEBI sub-regulations -> [[reg1_topic1, reg1_topic2,...],[reg2_topic1, reg2_topic2,...]...]
+
+cleanedregtopics48.pkl - list of list of topics extracted from regulatory documents -> [[doc1_topic1, doc1_topic2,...],[doc2_topic1, doc2_topic2,...]...]
 
 cleanedreguations48.pkl - list of list of sub-regulations from 48 regulatory documents -> [[doc1_reg1, doc1_reg2,...], [doc2_reg1, doc2_reg2]...]
 
